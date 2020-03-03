@@ -2,11 +2,12 @@
 
 const total = 100;
 const ordered = 50;
+let message;
 const userOrder = prompt('Make your offer');
 
 if (userOrder > total) {
-   alert('На складе недостаточно товара');
+   message = 'На складе недостаточно товара';
 } else {
-   alert('Заказ оформлен с вами свяжеться менеджер');
+   message = 'Заказ оформлен с вами свяжеться менеджер';
 }
 
