@@ -10,4 +10,5 @@ if (userOrder > total) {
 } else {
    message = 'Заказ оформлен с вами свяжеться менеджер';
 }
+alert(message);
 
