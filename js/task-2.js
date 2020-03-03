@@ -2,7 +2,7 @@
 
 const total = 100;
 const ordered = 50;
-let userOrder = prompt('Make your offer');
+const userOrder = prompt('Make your offer');
 
 if (userOrder > total) {
    alert('На складе недостаточно товара');

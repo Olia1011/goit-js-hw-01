@@ -1,14 +1,15 @@
 "use strict"
 
+let message;
 const ADMIN_PASSWORD = 'jqueryismyjam';
 let userPassword = prompt('Add your password');
 
  if (userPassword===null) {
-    alert('Отменено пользователем!');
+     message = 'Отменено пользователем!';
   } else if (userPassword===ADMIN_PASSWORD) {
-       alert('Добро пожаловать!');
+     message =  'Добро пожаловать!';
 } else {
-      alert('Доступ запрещен, неверный пароль!');
+     message = 'Доступ запрещен, неверный пароль!';
  }
 
   alert(message);

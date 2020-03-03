@@ -2,16 +2,17 @@
 
 let input;
 let total = 0;
+let message;
 
 do { 
    input = prompt('Введите число');
    if(Number.isNaN(Number(input)) || input === ''){
-       alert('Было введено не число, поробуйте еще раз!');
+       message = 'Было введено не число, поробуйте еще раз!';
    } else {
        total += Number(input);
    }
  }  while (input !==null); 
-       alert(`Общая сумма чисел равна ${total}`);
+        message = `Общая сумма чисел равна ${total}`;
    
 
 
