@@ -6,27 +6,27 @@ const country = prompt ('Введите страну доставки!');
 
 
 switch(country.toLowerCase()) {
-    case 'Китай':
+    case 'китай':
     price = 100;
     message = `Доставка в ${country} будет стоить ${price} кредитов`;
     break;
 
-    case 'Чили':
+    case 'чили':
     price = 250;
     message = `Доставка в ${country} будет стоить ${price} кредитов`;
     break;
 
-    case 'Австралия': 
+    case 'австралия': 
     price = 170;
     message = `Доставка в ${country} будет стоить ${price} кредитов`;
     break;
 
-    case 'Индия': 
+    case 'индия': 
     price = 80;
     message = `Доставка в ${country} будет стоить ${price} кредитов`;
     break;
 
-    case 'Ямайка': 
+    case 'ямайка': 
     price = 120;
     message = `Доставка в ${country} будет стоить ${price} кредитов`;
     break;
