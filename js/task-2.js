@@ -6,8 +6,8 @@ let message;
 let userOrder = prompt('Make your offer');
 
 if (userOrder > total) {
-   alert (message = 'На складе недостаточно товара');
+   alert ('На складе недостаточно товара');
 } else {
-   alert(message = 'Заказ оформлен с вами свяжеться менеджер');
+   alert('Заказ оформлен с вами свяжеться менеджер');
 }
 
